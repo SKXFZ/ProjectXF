@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+     Em HTML é id    = em CSS é #(Só use em parametros diferentes)
+     Em HTML é Class = em CSS é.(Pode usar em qualquer parametros)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+body{
+    background-color: rgba(123, 168, 189, 0.877);
+    font: normal lighter 1.2em arial, verdana, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: rgb(6, 53, 73);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1.3em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1#titulo{
+    text-align: center;
+    font: normal bolder 2.2em 'Ultra', serif;
+}
+
+h2{
+    color: #1d3b63;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.basico{
+    color: #115211;
+    background-color: #19af19da;
+}
+.intermediario{
+    color: #707025;
+    background-color: #c7c729;
+}
+.avancado{
+    color: #641818;
+    background-color: #c04c4c;
+}

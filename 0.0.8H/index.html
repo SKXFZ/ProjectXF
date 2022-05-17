@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <hr>
+    <p>Abra o site em diferentes dispositivos moveis ou diminua a aba do seu navegador e veja a magica acontecer !</p>
+
+    <picture>
+        <source media="(max-width: 680px)" srcset="Images/2nd-Conquista-KOF-SM.png" type="image/PNG">
+        <source media="(max-width: 900px)" srcset="Images/2nd-Conquista-KOF-MD.png" type="image/PNG">
+        <img src="Images/2nd-Conquista-KOF-BIG.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio Kentes</h1>
+    <hr>
+    <br>
+    <p>Para reproduzir audio nos seus sites HTML.</p>
+    <p><big><strong>Primeiro audio</strong></big></p>
+    <br>
+    <audio src="midias/SmashFull.mp3" autoplay controls></audio> <!--Forma simples de colocar audio-->
+    <br>
+    <br>
+    <p><big><b>Segundo Audio</b></big></p>
+    <audio preload="metadata" controls loop> <!--Forma detalhada para colocar audios-->
+        <source src="midias/StarsFull.mp3" type="audio/mpeg">
+        <source src="midias/StarsFull.ogg" type="audio/ogg">
+    </audio> <!--Formatos de audios compativeis frequentes em navegadores (MP3(mpeg), ogg, wav)-->
+    
+</body>
+</html>

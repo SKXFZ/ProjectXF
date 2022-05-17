@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Externo</title>
+    <style>
+        @font-face {
+            font-family: 'Faroete';
+            src: url('fonts/RioGrande.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;         
+            /*
+            Tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography
+            - SVG*/
+        }
+        @font-face {
+            font-family: 'Terror';
+            src: url('fonts/HelpMe.ttf') format('truetype');
+            font-weight: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 19px;
+        }
+
+        h1{
+            font-family: 'Faroete', Times, serif;
+            font-size: 4em;
+            font-weight: bold;
+        }
+        
+        h2{
+            font-family: 'Terror', Times, serif;
+            font-size: 2.5em;
+            font-weight: 400;
+            font-style: italic;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt dicta dolores omnis, laboriosam illum sed alias nesciunt blanditiis, dolorum inventore. Alias at animi aperiam officiis aliquid voluptates sapiente voluptas?</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore tempora asperiores, cumque iusto eos rem neque hic explicabo ipsam beatae nesciunt magni commodi quasi voluptates inventore blanditiis repellendus ducimus laudantium.</p>
+</body>
+</html>

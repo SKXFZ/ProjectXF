@@ -1,0 +1,138 @@
+@charset "UTF-8";
+ /*background-image: linear-gradient(to top, #086137, #66e6aa);*/
+ @font-face {
+     font-family: 'android';
+     src: url('fonts/idroid.otf') format('opentype');
+     font-weight: normal;
+ }
+
+
+body{
+    background-color: #cccbc9;
+}
+
+header{
+    
+    display: block;
+    background-color: #364bebc2;
+    background-image: linear-gradient(to top, #19236bd7, #7d86ce);
+    padding: 10px 20px;
+    margin: -25px -8px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+}
+
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2em;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 45px;
+    color: aliceblue;
+}
+
+header > h4{
+    width: 33%;
+    font: italic lighter 16px arial;
+    text-align: center;
+    color: aliceblue;
+    margin: 30px auto;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font: normal bold 16px arial;
+    padding: 5px 15px 5px 5px;
+    margin-left: -5px;
+
+}
+nav > a:hover{
+    background-color: #19226B;
+    text-decoration: underline;
+    color: #929ffc;
+}
+
+/*------------------------------------------------------------------------------*/
+
+main{
+    background-color: white;
+    max-width: 890px;
+    min-width: 370px;
+    padding: 5px 5px;
+    margin: 30px auto 10px auto;
+    text-indent: 10px;
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+}
+p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A3BB8;
+}
+main > h2, h3{
+    font-family: 'android';
+    font-weight: bold;
+    color: #19226B;
+    margin-left: 3px;
+}
+main > h3{
+    background-image: linear-gradient(to right, #7e8beeb7, white);
+}
+
+picture > img{
+    width: 100%;
+    margin: auto;
+}
+
+#bugdroid{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+section{
+    border-width: 25px 40px;
+    border-style: solid;
+    border-color: #19226B;
+    margin: auto;
+}
+
+iframe{
+    max-height: 100%;
+    max-width: 99%;
+    margin: auto;
+}
+
+aside{
+    background-color: #8f9cfd;
+    max-height: 100%;
+    max-width: 90%;
+    padding-bottom: 5px;
+    margin-left: 38px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+}
+
+aside > p{
+    background-color: #3C416B;
+    max-width: 100%;
+    padding: 10px 10px;
+    border-radius: 6px 6px 2px 2px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > p{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #19226B;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Codigo-Fonte</h2>
+    <p>Comando para deixar a escrita em forma de codigos de programação que seria(code): <br>
+        Ex da linguagem C <br>
+         <pre>
+             <code>
+int horas, jogados, inativo;
+char Atividade[50];
+
+printf("Digite quantas horas você esteve acordado durante o dia? ");
+scanf("%d", &horas);
+printf("Qual atividade você passou mais tempo fazendo? ");
+fseek(stdin, 0, SEEK_END);
+gets(Atividade);
+printf("Quantas horas você passou praticando a atividade?");
+scanf("%d", &jogados);
+Inativo = horas - jogados;
+printf("Você esteve acordado %d durante o dia praticando a atividade %s durante %d e ficou %d inativo.", horas, Atividade, jogados, Inativo);
+             </code>
+         </pre>
+    </p>
+    <h2>Citação Simples</h2>
+    <p>Uma citação ou poema <q>Carpe diem</q></p>
+    <h2>Citação Completa</h2>
+    <p>Usando o comando blockcode, você marca uma parte do texto de referencia de algum autor. <br> Segundo o trecho da musica do BonJovi ele diz:</p>
+    <blockquote cite="https://www.letras.mus.br/bon-jovi/4924/traducao.html">
+        It's my life, it's now or never(É a minha vida, é agora ou nunca) <br>
+        I ain't gonna live forever(Eu não vou viver para sempre) <br>
+        I just want to live while I'm alive(Eu só quero viver enquanto eu estou vivo) <br>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>O que é <abbr title="SpecialKurts">SK</abbr> e <abbr title="XtremeSolid">XS</abbr> na linguagem de programação? <br> No update novo fica <abbr title="SuperFastRoad">SFR</abbr> e <abbr title="XtremeProgressive">XP</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Não seja aquilo que te fizeram ser.</bdo></p>
+</body>
+</html>
