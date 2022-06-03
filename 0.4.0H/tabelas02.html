@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grande</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 350px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        .numero {
+            text-align: right;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas semanticas e grandes</h1>
+
+    <!--ANATOMIA DE TABELAS GRANDES E ORGANIZDAS
+        <table>
+            <thead>
+                th(linhas da tabela), td(dado da tabela), tr(cabeçalho da tabela
+            <tbody>
+                th(linhas da tabela), td(dado da tabela), tr(cabeçalho da tabela
+            <tfoot>
+                tr(linhas da tabela), td(dado da tabela), th(cabeçalho da tabela
+-->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População(2021)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Meliantes</th>
+                <td class="numero"><strong>85 524 404</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
