@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela completa</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.6em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gainsboro;
+        }
+        th, td {
+            border: 1px solid black;
+            width: 170px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Pessoas</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Luciana Viera</td>
+                <td>Batman</td>
+                <td>Madagascar</td>
+                <td>Harry Potter</td>
+            </tr>
+            <tr>
+                <td>Marcela Castro</td>
+                <td>Missão Impossivel</td>
+                <td>Velozes e Furiosos</td>
+                <td>Spider-Man</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Osvaldo Oliveira</td>
+                <td>Gladiador</td>
+                <td>The Last Samurai</td>
+                <td>Stars Wars</td>
+            </tr>
+            <tr>
+                <td>Luiz Alberto</td>
+                <td>Taxi Driver</td>
+                <td>Clube da luta</td>
+                <td>Karatê Kid</td>
+            </tr>
+            <tr>
+                <td>Joao Kempo</td>
+                <td>BadBoys</td>
+                <td>Matrix</td>
+                <td>Equilibrium</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
